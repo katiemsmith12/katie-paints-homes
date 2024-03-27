@@ -1,0 +1,12 @@
+.NavigationItemContainer {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex: 1;
+}
+
+@media (max-width: 1200px) {
+    .NavigationItemContainer {
+        display: none;
+    }
+}

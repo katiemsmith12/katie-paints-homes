@@ -1,0 +1,18 @@
+.OrderNow {
+    background-color: #B7472A;
+    border-radius: 16px;
+    padding-left: 38px;
+    padding-right: 38px;
+    border-color: #B7472A;
+    border-style: solid;
+    max-width: 200px;
+}
+  
+  .OrderNowText {
+    font-family: 'Urbanist', sans-serif;
+    font-optical-sizing: auto;
+    font-weight: medium;
+    font-style: normal;
+    font-size: 16pt;
+    color: #FFF2E5;
+}

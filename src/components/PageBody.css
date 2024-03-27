@@ -1,0 +1,46 @@
+.PageBody {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    align-items: left;
+    justify-content: center;
+    text-align: left;
+    padding-left: 75px;
+    padding-right: 700px;
+}
+
+
+.Title {
+    font-family: 'Krub', sans-serif;
+    font-optical-sizing: auto;
+    font-weight: medium;
+    font-style: normal;
+    font-size: 40pt;
+    color: #36221D;
+    display: flex;
+    min-width: 200px;
+}
+
+.Body {
+    font-family: 'Urbanist', sans-serif;
+    font-optical-sizing: auto;
+    font-weight: medium;
+    font-style: normal;
+    font-size: 14pt;
+    color: #36221D;
+    display: flex;
+    min-width: 200px;
+}
+
+.OrderNowButtonContainer {
+    display: flex;
+    flex: 1;
+    justify-content: flex;
+    align-items: center;
+}
+
+@media (max-width: 1200px) {
+    .PageBody {
+        padding-right: 75px;
+    }
+}

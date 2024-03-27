@@ -1,0 +1,42 @@
+.Navigator {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding: 30px 25px;
+    flex: 1;
+}
+
+.Logo {
+    width: 350px;
+    height: auto;
+    align-items: center;
+    justify-content: center;
+}
+
+.LogoContainer {
+    flex: 1;
+    display: flex;
+}
+
+.TransparentOrderNowButtonContainer {
+    display: flex;
+    flex: 1;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.Hamburger {
+    display: none;
+    font-size: 50px;
+    color: #36221D;
+}
+
+@media (max-width: 1200px) {
+    .TransparentOrderNowButtonContainer {
+        display: none;
+    }
+    .Hamburger {
+        display: flex;
+    }
+}

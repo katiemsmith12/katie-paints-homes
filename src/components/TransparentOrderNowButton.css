@@ -1,0 +1,18 @@
+.TransparentOrderNow {
+    background-color: #FFF2E5;
+    border-radius: 16px;
+    padding-left: 35px;
+    padding-right: 35px;
+    border-color: #B7472A;
+    border-style: solid;
+    min-width: 150px;
+}
+  
+  .TransparentOrderNowText {
+    font-family: 'Urbanist', sans-serif;
+    font-optical-sizing: auto;
+    font-weight: bold;
+    font-style: normal;
+    font-size: 12pt;
+    color: #B7472A;
+}
